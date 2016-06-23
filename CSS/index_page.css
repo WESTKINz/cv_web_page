@@ -51,3 +51,34 @@ li a:hover {
 	color:white;
 
 }
+
+.links_area{
+	height: 500px;
+	width: 100%;
+	background-color:#F5F5F5;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+
+.article{
+	height: 400px;
+	width: 75%;
+	background-color: #FAFAFA;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top:-5px;
+    float:left;
+    margin-right:50px;
+}
+
+.link_hub{
+	min-height: 200px;
+	width: 15%;
+	background-color: #FAFAFA;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top:-5px;
+    float:left;
+    margin-right:50px;
+    margin-bottom:8px;
+}

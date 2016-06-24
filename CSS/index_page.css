@@ -141,3 +141,10 @@ input[type=submit]{
 input[type=submit]:hover{
 	color:#333;
 }
+/*for cv.html page*/
+.float_the_profile_picture{
+	float:left;
+	padding-right:30px;
+	padding-left:30px;
+	padding-top:20px;
+}

@@ -18,3 +18,23 @@ $(document).ready(function(){
 			} // End if
 		});
 });
+
+function maths() {
+  var a = document.forms["login"]["Initial"].value;
+  var b = document.forms["login"]["fname"].value;
+  var c = document.forms["login"]["lname"].value;
+  var d = document.forms["login"]["email"].value;
+  var e = document.forms["login"]["pnumber"].value;
+  var f = document.forms["login"]["subject"].value;
+  var g = document.forms["login"]["msg"].value;
+    if (a == "" || b == "" || c == "" || d == "" || e == "" || f == "" || g == "") {
+      error = "All fields must be entered.";
+      document.getElementById("show_msg").innerHTML = error;
+      return false;
+      }else {
+        window.alert("you have completed the process and we will contact you with 2 hours");
+        location.reload();
+        return false;
+    }
+  return true;
+}

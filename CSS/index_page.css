@@ -34,7 +34,7 @@ li a {
 }
 
 li a:hover {
-        color: #6F86D8;
+    color: #6F86D8;
 }
 
 .logo{
@@ -52,8 +52,8 @@ li a:hover {
 	width:100%;
 	text-align: right;
 	background-color: #333;
-	padding-top:10px;
-	padding-bottom: 10px;
+	padding-top:5px;
+	padding-bottom: 5px;
 	margin-top:-5px;
 	color:white;
 
@@ -75,13 +75,13 @@ li a:hover {
 }
 
 .box {
-    width: 300px;
-    height: 300px;
-    background-color:#EBEBEB;
+    width: 40px;
+    height: 40px;
+    background-color:grey;
     display: inline-block;
 }
 
-.box :hover{
+.box img:hover{
 	border-radius: 50%;
 	transform: rotate(360deg);
 }
@@ -190,5 +190,22 @@ input[type=submit]:hover{
     margin-bottom: 20px;
 }
 .style_cv_button:hover{
+    color:#333   
+}
+.style_cv_button_1{
+    background-color: #4CAF50;
+    display: inline;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+    transition:.5s;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.style_cv_button_1:hover{
     color:#333   
 }
